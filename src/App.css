@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  min-height: 100%;
+  margin: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.note-link {
+  margin-top: 20px
+}
+
+.App .add-btn {
+  font-size: 50px;
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  left: 10px;
+  top: 10px;
+  border-radius: 50%;
+  line-height: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .add-btn .add-btn-text{
+  position: relative;
+  bottom: 4px;
+}
